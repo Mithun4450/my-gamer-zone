@@ -21,7 +21,7 @@
 
     /* Bannar part */
     .bannar-container{
-      flex-direction: column;
+      flex-direction: column-reverse;
       margin: 0 auto;
     }
     .bannar-text{
@@ -64,8 +64,7 @@
    
     .bannar-image{
         width: 95%;
-        min-height: 400px;
-        border: 2px solid green;
+        margin-top: 20px;
         
     }
     .bannar-image img{
