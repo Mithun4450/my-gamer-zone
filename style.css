@@ -284,12 +284,13 @@ color: transparent;
 
 /* Grid Button Part */
 .grid-button-container{
-    max-width: 70%;
-    min-height: 200px;
-    margin: 150px auto 0;
+    max-width: 80%;
+    height: 200px;
+    margin: 150px auto 100px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
+    
     
 }
 .grid-button-container>.grid-btn{
@@ -356,7 +357,7 @@ color: transparent;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .footer-btn-container button{
     border: none;
@@ -372,7 +373,7 @@ color: transparent;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .footer-link-container a{
@@ -387,5 +388,6 @@ color: transparent;
     color: rgba(255, 255, 255, 0.60);
     font-size: 12px;
     font-weight: 500;
+    padding: 10px;
 
 }
