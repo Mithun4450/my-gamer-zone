@@ -313,3 +313,36 @@ color: transparent;
     width: 35px;
     padding: 7px;
 }
+
+
+/* Footer Part */
+.footer-container{
+    max-width: 1400px;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+.footer-logo-container{
+    width: 80%;
+    min-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu-container{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-menu-container a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
