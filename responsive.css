@@ -30,9 +30,6 @@
      
     }
    
-
-
-
     .bannar-text h1{
         text-align: left;
         margin-left: 100px;
@@ -70,6 +67,37 @@
     .bannar-image img{
         width: 100%;
         height: 100%;
+    }
+
+
+    /* Gamer Part */
+    .gamer-container{
+        flex-direction: column;
+    
+    }
+    .gamer-image{
+        width: 80%;
+    
+    }
+    .gamer-text{
+        width: 80%;
+       
+    }
+    .gamer-image img{
+        width: 100%;
+    }
+    .gamer-text> h3{
+    font-size: 30px;
+    text-align: center;
+    
+    }
+    .gamer-text>p{
+        text-align: center;
+        font-size: 12px;
+        
+    }
+    .btn-gamer{
+        margin-right: 100px;
     }
 
 
