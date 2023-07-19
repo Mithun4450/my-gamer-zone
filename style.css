@@ -232,3 +232,42 @@ color: transparent;
     font-weight: 500;
     text-align: left;
 }
+
+
+/* Play Part */
+.play-container{
+    width: 90%;
+    flex-direction: column-reverse;
+    
+
+}
+.play-image{
+    width: 90%;
+    
+}
+
+.small-image{
+    z-index: 2;
+    width: 40%;
+    position: absolute;
+    right: -70px;
+    bottom: -60px;
+
+}
+
+
+.play-text{
+    width: 40%;
+    height: 150px;
+
+}
+.play-text>h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.play-text>p{
+    color: #534C64;
+    font-size: 14px;
+    font-weight: 400;
+}
