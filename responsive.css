@@ -138,7 +138,7 @@
     height: 300px;
     }
 
-     /* Play Part responsive for mobile */
+    /* Play Part  */
     .play-container{
         width: 70%;
         margin: 50px auto 0;
@@ -147,16 +147,15 @@
     }
     .play-image{
         width: 90%;
-        height: 260px;
+        height: 450px;
+        margin-top: 20px;
         
     }
-
 
     .play-text{
         width: 90%;
         text-align: center;
         
-
     }
     .play-text>h3{
         font-size: 25px;
@@ -165,6 +164,29 @@
     .play-text>p{
         font-size: 10px;
         
+    }
+
+
+    
+    /* Grid Button Part */
+    .grid-button-container{
+        text-align: center;
+        margin-top: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        
+        
+    }
+    .grid-button-container>.grid-btn{
+        font-size: 10px;
+        font-weight: 400;
+    
+        
+        
+    }
+   
+    .grid-button-container>.grid-btn>img{
+        width: 20px;
+        padding: 7px;
     }
 
 
@@ -353,7 +375,26 @@
         
     }
     
-
+    /* Grid Button Part */
+    .grid-button-container{
+        text-align: center;
+        margin-top: 100px;
+        grid-template-columns: repeat(3, 1fr);
+        
+        
+    }
+    .grid-button-container>.grid-btn{
+        font-size: 14px;
+        font-weight: 600;
+    
+        
+        
+    }
+   
+    .grid-button-container>.grid-btn>img{
+        width: 30px;
+        padding: 7px;
+    }
 
 
 
