@@ -151,40 +151,53 @@
 } 
 
    /* Play Part */
-   .play-container{
-       width: 70%;
-       margin: 50px auto 0;
-       flex-direction: column-reverse;
-
-   }
-   .play-image{
-       width: 90%;
-       height: 445px;
-       margin-top: 30px; 
-
-       
-    }
-
+.play-container{
+    width: 80%;
+    height: auto;
+    flex-direction: column-reverse;
     
+}
+
+.play-image{
+    width: 80%;
+    height: auto; 
+    
+    
+}
+
+.big-image{
+    width: 100%;
+    height: auto;
+     
+}
+
+.small-image{
+    width: 40%;
+    height: auto;
+    
+}
+
+.play-text{
+    width: 80%;
+    height: auto
+    
+}
+
+.play-text>h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+  
+}
+
+.play-text>p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
 
 
-   .play-text{
-       width: 90%;
-       height: 170px;
-       text-align: center;
-       margin-bottom: 15px;
-    }
-
-   .play-text>h3{
-       font-size: 40px;
-       margin-bottom: 10px;
-       
-   }
-   .play-text>p{
-       font-size: 16px;
-       
-       
-   }
    
    /* Grid Button Part */
    .grid-button-container{
@@ -416,51 +429,48 @@
 
 
     /* Play Part */
-    .play-container{
-        width: 80%;
-        
-        
-    }
-    .play-image{
-        width: 80%;
-        height: 250px;
-        position: relative;
-        margin-top: 20px;
-        
-        
-        
-    }
-    .big-image{
-        z-index: 1;
-        width: 100%;
-        
-    }
+.play-container{
+    width: 80%;
+    height: auto;
+    flex-direction: column-reverse;
     
-    .small-image{
-        z-index: 2;
-        width: 40%;
-        position: absolute;
-        right: -20%;
-        bottom: -25%;
-    }
+}
+
+.play-image{
+    width: 80%;
+    height: auto; 
     
-    .play-text{
-        width: 90%;
-        height: 125px;
-        margin-bottom: 10px;
-        
-    }
-    .play-text>h3{
-        font-size: 30px;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-    .play-text>p{
-        color: #534C64;
-        font-size: 12px;
-        font-weight: 400;
-            
-    }
+    
+}
+
+.big-image{
+    width: 100%;
+    height: auto;
+     
+}
+
+.small-image{
+    width: 40%;
+    height: auto;
+    
+}
+
+.play-text{
+    width: 80%;
+    height: auto
+}
+
+.play-text>h3{
+    font-size: 25px;
+  
+}
+
+.play-text>p{
+    font-size: 12px;
+    
+}
+
+
 
     
     /* Grid Button Part */

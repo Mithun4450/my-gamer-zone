@@ -267,6 +267,7 @@ color: transparent;
 /* Play Part CSS */
 .play-container{
     width: 70%;
+    height: auto;
     margin: 50px auto 0;
     display: flex;
     justify-content: space-between;
@@ -275,29 +276,37 @@ color: transparent;
 }
 .play-image{
     width: 40%;
-    height: 320px;
+    height: auto;
     position: relative;
     
     
 }
 .big-image{
-    z-index: 1;
     width: 100%;
+    height: auto;
+}
+.big-image img{
+    width: 100%;
+    height: auto;
 }
 
 .small-image{
-    z-index: 2;
     width: 40%;
+    height: auto;
     position: absolute;
     right: -20%;
     bottom: -20%;
 
 }
+.small-image img{
+    width: 100%;
+    height: auto;
+}
 
 
 .play-text{
     width: 40%;
-    height: 150px;
+    height: auto;
 
 }
 .play-text>h3{
