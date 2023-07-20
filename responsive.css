@@ -30,6 +30,7 @@
    .bannar-text{
        width: 100%;
        height: 150px;
+       margin-left: 50px;
     
    }
   
@@ -100,6 +101,9 @@
        font-size: 12px;
        
    }
+   .btn-gamer{
+    margin: 0 auto;
+   }
    
 
 
@@ -156,7 +160,7 @@
    .play-image{
        width: 90%;
        height: 450px;
-       margin-top: 20px; 
+       margin-top: 30px; 
     }
 
     
